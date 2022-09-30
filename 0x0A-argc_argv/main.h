@@ -8,6 +8,7 @@
  * int prototypes()
  */
 
-_putchar(char, int);
+int _putchar(char);
+int check_num(char *str);
 
 #endif /*MAIN_H*/
