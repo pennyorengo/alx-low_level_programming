@@ -1,14 +1,3 @@
-#ifndef MAIN_H
-#define MAIN_H
+int _putchar(char c);
 
-#include <stdio.h>
-
-/**
- * void prototypes()
- * int prototypes()
- */
-
-int _putchar(char);
 int check_num(char *str);
-
-#endif /*MAIN_H*/
