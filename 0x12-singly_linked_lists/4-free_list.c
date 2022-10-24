@@ -1,22 +1,14 @@
 #include "lists.h"
 
-
-
 /**
-
  *free_listint - A function that frees list.
-
  * @head: head.
-
  */
 
-void free_listint(listint_t *head)
-
+void free_list(list_t *head)
 {
 
-	listint_t *liberador;
-
-
+	list_t *liberador;
 
 	while (head != NULL)
 
